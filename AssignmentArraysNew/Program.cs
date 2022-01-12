@@ -103,6 +103,15 @@ namespace AssignmentArraysNew
             }
         }
 
+        //the index of an element
+        static int IndexoF(int[] myArray, int elemenet)
+        {
+            if (myArray is null || myArray.Length == 0)
+            {
+                return -1;
+            }
+        }
+
         // print Average of elements  
         public static void ArithmeticMeanElement(int[] myArray)
         {
